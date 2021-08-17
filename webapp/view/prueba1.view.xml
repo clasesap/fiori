@@ -1,0 +1,18 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="clasesap.invoices.controller.prueba1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					    <Text xmlns="sap.m" text="Esto es una prueba de SAP FIori" id="text2"/>
+					    <MessageStrip xmlns="sap.m" text="Mensaje de Prueba" showIcon="false" showCloseButton="true" id="strip0">
+					        </MessageStrip>
+					    <Button xmlns="sap.m" text="Button" id="button2"/>
+					</content>
+				<headerContent>
+				</headerContent>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
